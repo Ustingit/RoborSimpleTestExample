@@ -1,0 +1,38 @@
+*** Settings ***
+Library        BuiltIn
+Library        Dialogs
+Library        Selenium2Library
+
+*** Variables ***
+
+${BROWSER}    firefox
+${HOST}    localhost:4444
+${REGISTRATION URL}    https://www.onliner.by/
+
+*** Keywords ***
+Go to catalog
+    Wait Until Page Contains Element  //span[contains(text(), "Каталог")]    3 sec
+    Click Element  //span[contains(text(), "Каталог")]
+
+Go To Electric Goods
+    Wait Until Page Contains Element  //span[contains(text(), "Электроника")]    3 sec
+    Click Element  //span[contains(text(), "Электроника")]
+
+Go To Mobile Phones
+    Wait Until Page Contains Element  //div[contains(text(), "Мобильные телефоны")]    3 sec
+    Click Element  //div[contains(text(), "Мобильные телефоны")]
+    Wait Until Page Contains Element  //div[contains(@class, "catalog-navigation-list_active")]/div/div/div/div/div/div[contains(text(), 'Мобильные телефоны')]    3 sec
+    Click Element  //div[contains(@class, "catalog-navigation-list_active")]/div/div/div/div/div/div[contains(text(), 'Мобильные телефоны')]
+
+Check Placeholder
+    Wait Until Page Contains Element  //input[contains(@placeholder, 'Поиск в Каталоге.')]    3 sec
+    Page Should Contain Element  //input[contains(@placeholder, 'Поиск в Каталоге.')]    msg=No Mobile Phones H1 on page
+
+Suite Teardown
+    Run Keyword If Any Tests Failed    Selenium2Library.Capture Page Screenshot
+    Close All Browsers
+
+Test Setup
+    Set Selenium Timeout  5 sec
+    Open Browser  ${REGISTRATION URL}  ${BROWSER}
+    Maximize Browser Window
