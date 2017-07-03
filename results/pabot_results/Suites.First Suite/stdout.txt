@@ -1,0 +1,23 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.First Suite                                                            
+==============================================================================
+Check mobile phones placeholder                                       | PASS |
+------------------------------------------------------------------------------
+Check Headphones placeholder                                          | PASS |
+------------------------------------------------------------------------------
+Check Pabot 1                                                         We are starting first test!!!
+We are starting first test after pause
+FINISH first test!
+| PASS |
+------------------------------------------------------------------------------
+Suites.First Suite                                                    | PASS |
+3 critical tests, 3 passed, 0 failed
+3 tests total, 3 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+3 critical tests, 3 passed, 0 failed
+3 tests total, 3 passed, 0 failed
+==============================================================================
+Output:  C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\results\pabot_results\Suites.First Suite\output.xml

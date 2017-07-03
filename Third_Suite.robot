@@ -1,13 +1,13 @@
 *** Settings ***
-Documentation    Suite description
+Resource    resource.txt
+Suite Teardown    Suite Teardown
 
 *** Test Cases ***
-Test title
-    [Tags]    DEBUG
-    Provided precondition
-    When action
-    Then check expectations
-
-*** Keywords ***
-Provided precondition
-    Setup system under test
+Check Pabot 3
+    log    We are starting third test!!!
+    Sleep    1 sec
+    log   We are stirting third test after pause
+    ${var1}=    Set Variable    ${1}
+    ${var2}=    Set Variable    ${2}
+    Should Not Be Equal As Numbers    ${var1}    ${var2}    msg=Vars equal.
+    log  FINISH third test!

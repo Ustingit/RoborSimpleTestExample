@@ -1,13 +1,13 @@
 *** Settings ***
-Documentation    Suite description
+Resource    resource.txt
+Suite Teardown    Suite Teardown
 
 *** Test Cases ***
-Test title
-    [Tags]    DEBUG
-    Provided precondition
-    When action
-    Then check expectations
-
-*** Keywords ***
-Provided precondition
-    Setup system under test
+Check mobile phones placeholder
+    [Setup]    Test Setup
+    Go to catalog
+    Go To Electric Goods
+    sleep    5 sec
+    Go To Mobile Phones
+    Check Placeholder
+    [Teardown]    Test Teardown

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170703 19:30:03.064" generator="Robot 3.0 (Python 2.7.12 on win32)">
+<suite id="s1" name="Suites">
+<suite source="C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\Check_mobile_phones_placeholder.robot" id="s1-s1" name="Check mobile phones placeholder">
+<test id="s1-s1-t1" name="Check mobile phones placeholder">
+<kw type="setup" name="Test Setup" library="resource">
+<kw name="Set Selenium Timeout" library="Selenium2Library">
+<doc>Sets the timeout in seconds used by various keywords.</doc>
+<arguments>
+<arg>5 sec</arg>
+</arguments>
+<status status="PASS" endtime="20170703 19:30:03.513" starttime="20170703 19:30:03.513"></status>
+</kw>
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${REGISTRATION_URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20170703 19:30:03.515" level="INFO">Opening browser 'firefox' to base url 'http://172.19.0.177:5555/wd/hub'</msg>
+<status status="PASS" endtime="20170703 19:30:35.365" starttime="20170703 19:30:03.514"></status>
+</kw>
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${TEST_URL}</arg>
+</arguments>
+<msg timestamp="20170703 19:30:35.365" level="INFO">Opening url 'https://www.onliner.by/'</msg>
+<status status="PASS" endtime="20170703 19:30:50.034" starttime="20170703 19:30:35.365"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:30:50.034" starttime="20170703 19:30:03.511"></status>
+</kw>
+<kw name="Go to catalog" library="resource">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>//span[contains(text(), "Каталог")]</arg>
+<arg>3 sec</arg>
+</arguments>
+<status status="PASS" endtime="20170703 19:30:53.582" starttime="20170703 19:30:50.035"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>//span[contains(text(), "Каталог")]</arg>
+</arguments>
+<msg timestamp="20170703 19:30:53.583" level="INFO">Clicking element '//span[contains(text(), "Каталог")]'.</msg>
+<status status="PASS" endtime="20170703 19:30:59.717" starttime="20170703 19:30:53.583"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:30:59.717" starttime="20170703 19:30:50.035"></status>
+</kw>
+<kw name="Go To Electric Goods" library="resource">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>//span[contains(text(), "Электроника")]</arg>
+<arg>3 sec</arg>
+</arguments>
+<status status="PASS" endtime="20170703 19:31:08.361" starttime="20170703 19:30:59.718"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>//span[contains(text(), "Электроника")]</arg>
+</arguments>
+<msg timestamp="20170703 19:31:08.362" level="INFO">Clicking element '//span[contains(text(), "Электроника")]'.</msg>
+<status status="PASS" endtime="20170703 19:31:13.612" starttime="20170703 19:31:08.361"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:31:13.613" starttime="20170703 19:30:59.718"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5 sec</arg>
+</arguments>
+<msg timestamp="20170703 19:31:18.614" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20170703 19:31:18.614" starttime="20170703 19:31:13.613"></status>
+</kw>
+<kw name="Go To Mobile Phones" library="resource">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>//div[contains(text(), "Мобильные телефоны")]</arg>
+<arg>3 sec</arg>
+</arguments>
+<status status="PASS" endtime="20170703 19:31:18.848" starttime="20170703 19:31:18.616"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>//div[contains(text(), "Мобильные телефоны")]</arg>
+</arguments>
+<msg timestamp="20170703 19:31:18.849" level="INFO">Clicking element '//div[contains(text(), "Мобильные телефоны")]'.</msg>
+<status status="PASS" endtime="20170703 19:31:19.450" starttime="20170703 19:31:18.848"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>//div[contains(@class, "catalog-navigation-list_active")]/div/div/div/div/div/div[contains(text(), 'Мобильные телефоны')]</arg>
+<arg>3 sec</arg>
+</arguments>
+<status status="PASS" endtime="20170703 19:31:19.722" starttime="20170703 19:31:19.450"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>//div[contains(@class, "catalog-navigation-list_active")]/div/div/div/div/div/div[contains(text(), 'Мобильные телефоны')]</arg>
+</arguments>
+<msg timestamp="20170703 19:31:19.723" level="INFO">Clicking element '//div[contains(@class, "catalog-navigation-list_active")]/div/div/div/div/div/div[contains(text(), 'Мобильные телефоны')]'.</msg>
+<status status="PASS" endtime="20170703 19:31:20.195" starttime="20170703 19:31:19.722"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:31:20.196" starttime="20170703 19:31:18.614"></status>
+</kw>
+<kw name="Check Placeholder" library="resource">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>//input[contains(@placeholder, 'Поиск в Каталоге.')]</arg>
+<arg>3 sec</arg>
+</arguments>
+<status status="PASS" endtime="20170703 19:31:20.447" starttime="20170703 19:31:20.197"></status>
+</kw>
+<kw name="Page Should Contain Element" library="Selenium2Library">
+<doc>Verifies element identified by `locator` is found on the current page.</doc>
+<arguments>
+<arg>//input[contains(@placeholder, 'Поиск в Каталоге.')]</arg>
+<arg>msg=No Mobile Phones H1 on page</arg>
+</arguments>
+<msg timestamp="20170703 19:31:20.682" level="INFO">Current page contains element '//input[contains(@placeholder, 'Поиск в Каталоге.')]'.</msg>
+<status status="PASS" endtime="20170703 19:31:20.682" starttime="20170703 19:31:20.447"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:31:20.682" starttime="20170703 19:31:20.196"></status>
+</kw>
+<kw type="teardown" name="Test Teardown" library="resource">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170703 19:31:22.065" starttime="20170703 19:31:20.683"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:31:22.065" starttime="20170703 19:31:20.683"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:31:22.065" critical="yes" starttime="20170703 19:30:03.508"></status>
+</test>
+<kw type="teardown" name="Suite Teardown" library="resource">
+<kw name="Run Keyword If Any Tests Failed" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if one or more tests failed.</doc>
+<arguments>
+<arg>Selenium2Library.Capture Page Screenshot</arg>
+</arguments>
+<status status="PASS" endtime="20170703 19:31:22.070" starttime="20170703 19:31:22.069"></status>
+</kw>
+<kw name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20170703 19:31:22.072" starttime="20170703 19:31:22.071"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:31:22.073" starttime="20170703 19:31:22.069"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:31:22.073" starttime="20170703 19:30:03.138"></status>
+</suite>
+<status status="PASS" endtime="20170703 19:31:22.078" starttime="20170703 19:30:03.076"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Suites" pass="1">Suites</stat>
+<stat fail="0" id="s1-s1" name="Check mobile phones placeholder" pass="1">Suites.Check mobile phones placeholder</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

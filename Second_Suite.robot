@@ -1,13 +1,11 @@
 *** Settings ***
-Documentation    Suite description
+Resource    resource.txt
+Suite Teardown    Suite Teardown
 
 *** Test Cases ***
-Test title
-    [Tags]    DEBUG
-    Provided precondition
-    When action
-    Then check expectations
-
-*** Keywords ***
-Provided precondition
-    Setup system under test
+Check Pabot 2
+    log     We are starting second test!!!
+    ${var1}=    Set Variable    ${1}
+    ${var2}=    Set Variable    ${2}
+    Should Not Be Equal As Numbers    ${var1}    ${var2}    msg=Vars equal.
+    log  FINISH second test!

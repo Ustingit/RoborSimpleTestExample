@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170703 19:30:01.493" generator="Robot 3.0 (Python 2.7.12 on win32)">
+<suite id="s1" name="Suites">
+<suite source="C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\Second_Suite.robot" id="s1-s1" name="Second Suite">
+<test id="s1-s1-t1" name="Check Pabot 2">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>We are starting second test!!!</arg>
+</arguments>
+<status status="PASS" endtime="20170703 19:30:01.944" starttime="20170703 19:30:01.943"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>${1}</arg>
+</arguments>
+<assign>
+<var>${var1}</var>
+</assign>
+<msg timestamp="20170703 19:30:01.945" level="INFO">${var1} = 1</msg>
+<status status="PASS" endtime="20170703 19:30:01.945" starttime="20170703 19:30:01.944"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>${2}</arg>
+</arguments>
+<assign>
+<var>${var2}</var>
+</assign>
+<msg timestamp="20170703 19:30:01.950" level="INFO">${var2} = 2</msg>
+<status status="PASS" endtime="20170703 19:30:01.951" starttime="20170703 19:30:01.945"></status>
+</kw>
+<kw name="Should Not Be Equal As Numbers" library="BuiltIn">
+<doc>Fails if objects are equal after converting them to real numbers.</doc>
+<arguments>
+<arg>${var1}</arg>
+<arg>${var2}</arg>
+<arg>msg=Vars equal.</arg>
+</arguments>
+<status status="PASS" endtime="20170703 19:30:01.955" starttime="20170703 19:30:01.951"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>FINISH second test!</arg>
+</arguments>
+<status status="PASS" endtime="20170703 19:30:01.956" starttime="20170703 19:30:01.956"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:30:01.957" critical="yes" starttime="20170703 19:30:01.938"></status>
+</test>
+<kw type="teardown" name="Suite Teardown" library="resource">
+<kw name="Run Keyword If Any Tests Failed" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if one or more tests failed.</doc>
+<arguments>
+<arg>Selenium2Library.Capture Page Screenshot</arg>
+</arguments>
+<status status="PASS" endtime="20170703 19:30:01.961" starttime="20170703 19:30:01.961"></status>
+</kw>
+<kw name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20170703 19:30:01.962" starttime="20170703 19:30:01.962"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:30:01.962" starttime="20170703 19:30:01.960"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:30:01.963" starttime="20170703 19:30:01.580"></status>
+</suite>
+<status status="PASS" endtime="20170703 19:30:01.965" starttime="20170703 19:30:01.509"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Suites" pass="1">Suites</stat>
+<stat fail="0" id="s1-s1" name="Second Suite" pass="1">Suites.Second Suite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

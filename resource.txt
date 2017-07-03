@@ -1,15 +1,17 @@
 *** Settings ***
-Library        BuiltIn
-Library        Dialogs
 Library        Selenium2Library
 
 *** Variables ***
 
 ${BROWSER}    firefox
 ${HOST}    localhost:4444
-${REGISTRATION URL}    https://www.onliner.by/
+${REGISTRATION_URL}    http://172.19.0.177:5555/wd/hub
+${TEST_URL}    https://www.onliner.by/
 
 *** Keywords ***
+Test Teardown
+    Close Browser
+
 Go to catalog
     Wait Until Page Contains Element  //span[contains(text(), "Каталог")]    3 sec
     Click Element  //span[contains(text(), "Каталог")]
@@ -24,6 +26,12 @@ Go To Mobile Phones
     Wait Until Page Contains Element  //div[contains(@class, "catalog-navigation-list_active")]/div/div/div/div/div/div[contains(text(), 'Мобильные телефоны')]    3 sec
     Click Element  //div[contains(@class, "catalog-navigation-list_active")]/div/div/div/div/div/div[contains(text(), 'Мобильные телефоны')]
 
+Go To Telescopes
+    Wait Until Page Contains Element  //div[contains(text(), "Оптические приборы")]    3 sec
+    Click Element  //div[contains(text(), "Оптические приборы")]
+    Wait Until Page Contains Element  //div[contains(text(), "Оптические приборы")]/../div/div/a[@href='https://catalog.onliner.by/telescope']    3 sec
+    Click Element  //div[contains(text(), "Оптические приборы")]/../div/div/a[@href='https://catalog.onliner.by/telescope']
+
 Check Placeholder
     Wait Until Page Contains Element  //input[contains(@placeholder, 'Поиск в Каталоге.')]    3 sec
     Page Should Contain Element  //input[contains(@placeholder, 'Поиск в Каталоге.')]    msg=No Mobile Phones H1 on page
@@ -34,5 +42,6 @@ Suite Teardown
 
 Test Setup
     Set Selenium Timeout  5 sec
-    Open Browser  ${REGISTRATION URL}  ${BROWSER}
-    Maximize Browser Window
+    Open Browser  ${REGISTRATION_URL}  ${BROWSER}
+    Go To    ${TEST_URL}
+    #Maximize Browser Window

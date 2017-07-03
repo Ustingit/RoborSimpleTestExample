@@ -1,0 +1,19 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Third Suite                                                            
+==============================================================================
+Check Pabot 3                                                         We are starting third test!!!
+We are stirting third test after pause
+FINISH third test!
+| PASS |
+------------------------------------------------------------------------------
+Suites.Third Suite                                                    | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\results\pabot_results\Suites.Third Suite\output.xml

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170703 19:30:01.478" generator="Robot 3.0 (Python 2.7.12 on win32)">
+<suite id="s1" name="Suites">
+<suite source="C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\Third_Suite.robot" id="s1-s1" name="Third Suite">
+<test id="s1-s1-t1" name="Check Pabot 3">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>We are starting third test!!!</arg>
+</arguments>
+<status status="PASS" endtime="20170703 19:30:01.885" starttime="20170703 19:30:01.884"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1 sec</arg>
+</arguments>
+<msg timestamp="20170703 19:30:02.886" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20170703 19:30:02.886" starttime="20170703 19:30:01.886"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>We are stirting third test after pause</arg>
+</arguments>
+<status status="PASS" endtime="20170703 19:30:02.887" starttime="20170703 19:30:02.887"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>${1}</arg>
+</arguments>
+<assign>
+<var>${var1}</var>
+</assign>
+<msg timestamp="20170703 19:30:02.888" level="INFO">${var1} = 1</msg>
+<status status="PASS" endtime="20170703 19:30:02.888" starttime="20170703 19:30:02.887"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>${2}</arg>
+</arguments>
+<assign>
+<var>${var2}</var>
+</assign>
+<msg timestamp="20170703 19:30:02.896" level="INFO">${var2} = 2</msg>
+<status status="PASS" endtime="20170703 19:30:02.896" starttime="20170703 19:30:02.888"></status>
+</kw>
+<kw name="Should Not Be Equal As Numbers" library="BuiltIn">
+<doc>Fails if objects are equal after converting them to real numbers.</doc>
+<arguments>
+<arg>${var1}</arg>
+<arg>${var2}</arg>
+<arg>msg=Vars equal.</arg>
+</arguments>
+<status status="PASS" endtime="20170703 19:30:02.897" starttime="20170703 19:30:02.896"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>FINISH third test!</arg>
+</arguments>
+<status status="PASS" endtime="20170703 19:30:02.898" starttime="20170703 19:30:02.897"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:30:02.898" critical="yes" starttime="20170703 19:30:01.882"></status>
+</test>
+<kw type="teardown" name="Suite Teardown" library="resource">
+<kw name="Run Keyword If Any Tests Failed" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if one or more tests failed.</doc>
+<arguments>
+<arg>Selenium2Library.Capture Page Screenshot</arg>
+</arguments>
+<status status="PASS" endtime="20170703 19:30:02.902" starttime="20170703 19:30:02.901"></status>
+</kw>
+<kw name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20170703 19:30:02.902" starttime="20170703 19:30:02.902"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:30:02.903" starttime="20170703 19:30:02.900"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:30:02.903" starttime="20170703 19:30:01.538"></status>
+</suite>
+<status status="PASS" endtime="20170703 19:30:02.906" starttime="20170703 19:30:01.485"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Suites" pass="1">Suites</stat>
+<stat fail="0" id="s1-s1" name="Third Suite" pass="1">Suites.Third Suite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

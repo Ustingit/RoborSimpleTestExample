@@ -1,0 +1,18 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Second Suite                                                           
+==============================================================================
+Check Pabot 2                                                         We are starting second test!!!
+FINISH second test!
+| PASS |
+------------------------------------------------------------------------------
+Suites.Second Suite                                                   | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\results\pabot_results\Suites.Second Suite\output.xml

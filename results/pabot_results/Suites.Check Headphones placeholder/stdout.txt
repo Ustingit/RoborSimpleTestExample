@@ -1,0 +1,16 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Check Headphones placeholder                                           
+==============================================================================
+Check Headphones placeholder                                          | PASS |
+------------------------------------------------------------------------------
+Suites.Check Headphones placeholder                                   | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\results\pabot_results\Suites.Check Headphones placeholder\output.xml

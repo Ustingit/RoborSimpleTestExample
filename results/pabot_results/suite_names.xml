@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170703 19:29:56.824" generator="Robot 3.0 (Python 2.7.12 on win32)">
+<suite id="s1" name="Suites">
+<suite source="C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\Check_Headphones_placeholder.robot" id="s1-s1" name="Check Headphones placeholder">
+<test id="s1-s1-t1" name="Check Headphones placeholder">
+<kw type="setup" name="Test Setup" library="resource">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20170703 19:29:57.260" starttime="20170703 19:29:57.260"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.261" starttime="20170703 19:29:57.259"></status>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20170703 19:29:57.261" starttime="20170703 19:29:57.261"></status>
+</kw>
+<kw type="teardown" name="Test Teardown" library="resource">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20170703 19:29:57.262" starttime="20170703 19:29:57.262"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.262" starttime="20170703 19:29:57.261"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.263" critical="yes" starttime="20170703 19:29:57.257"></status>
+</test>
+<kw type="teardown" name="Suite Teardown" library="resource">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20170703 19:29:57.265" starttime="20170703 19:29:57.265"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.265" starttime="20170703 19:29:57.264"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.265" starttime="20170703 19:29:56.889"></status>
+</suite>
+<suite source="C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\Check_mobile_phones_placeholder.robot" id="s1-s2" name="Check mobile phones placeholder">
+<test id="s1-s2-t1" name="Check mobile phones placeholder">
+<kw type="setup" name="Test Setup" library="resource">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20170703 19:29:57.281" starttime="20170703 19:29:57.281"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.281" starttime="20170703 19:29:57.280"></status>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20170703 19:29:57.281" starttime="20170703 19:29:57.281"></status>
+</kw>
+<kw type="teardown" name="Test Teardown" library="resource">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20170703 19:29:57.283" starttime="20170703 19:29:57.282"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.283" starttime="20170703 19:29:57.282"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.283" critical="yes" starttime="20170703 19:29:57.279"></status>
+</test>
+<kw type="teardown" name="Suite Teardown" library="resource">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20170703 19:29:57.286" starttime="20170703 19:29:57.286"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.287" starttime="20170703 19:29:57.284"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.288" starttime="20170703 19:29:57.267"></status>
+</suite>
+<suite source="C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\First_Suite.robot" id="s1-s3" name="First Suite">
+<test id="s1-s3-t1" name="Check mobile phones placeholder">
+<kw type="setup" name="Test Setup" library="resource">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20170703 19:29:57.315" starttime="20170703 19:29:57.315"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.315" starttime="20170703 19:29:57.314"></status>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20170703 19:29:57.316" starttime="20170703 19:29:57.315"></status>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20170703 19:29:57.316" starttime="20170703 19:29:57.316"></status>
+</kw>
+<kw type="teardown" name="Test Teardown" library="resource">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20170703 19:29:57.317" starttime="20170703 19:29:57.317"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.317" starttime="20170703 19:29:57.316"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.317" critical="yes" starttime="20170703 19:29:57.312"></status>
+</test>
+<test id="s1-s3-t2" name="Check Headphones placeholder">
+<kw type="setup" name="Test Setup" library="resource">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20170703 19:29:57.323" starttime="20170703 19:29:57.322"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.323" starttime="20170703 19:29:57.321"></status>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20170703 19:29:57.324" starttime="20170703 19:29:57.323"></status>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20170703 19:29:57.325" starttime="20170703 19:29:57.325"></status>
+</kw>
+<kw type="teardown" name="Test Teardown" library="resource">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20170703 19:29:57.327" starttime="20170703 19:29:57.327"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.327" starttime="20170703 19:29:57.326"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.327" critical="yes" starttime="20170703 19:29:57.318"></status>
+</test>
+<test id="s1-s3-t3" name="Check Pabot 1">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20170703 19:29:57.330" starttime="20170703 19:29:57.330"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.330" critical="yes" starttime="20170703 19:29:57.328"></status>
+</test>
+<kw type="teardown" name="Suite Teardown" library="resource">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20170703 19:29:57.332" starttime="20170703 19:29:57.332"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.332" starttime="20170703 19:29:57.331"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.332" starttime="20170703 19:29:57.290"></status>
+</suite>
+<suite source="C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\Second_Suite.robot" id="s1-s4" name="Second Suite">
+<test id="s1-s4-t1" name="Check Pabot 2">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20170703 19:29:57.358" starttime="20170703 19:29:57.355"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.358" critical="yes" starttime="20170703 19:29:57.351"></status>
+</test>
+<kw type="teardown" name="Suite Teardown" library="resource">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20170703 19:29:57.363" starttime="20170703 19:29:57.363"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.363" starttime="20170703 19:29:57.362"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.364" starttime="20170703 19:29:57.335"></status>
+</suite>
+<suite source="C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\Third_Suite.robot" id="s1-s5" name="Third Suite">
+<test id="s1-s5-t1" name="Check Pabot 3">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20170703 19:29:57.385" starttime="20170703 19:29:57.384"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.385" critical="yes" starttime="20170703 19:29:57.377"></status>
+</test>
+<kw type="teardown" name="Suite Teardown" library="resource">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20170703 19:29:57.389" starttime="20170703 19:29:57.389"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.390" starttime="20170703 19:29:57.388"></status>
+</kw>
+<status status="PASS" endtime="20170703 19:29:57.390" starttime="20170703 19:29:57.367"></status>
+</suite>
+<status status="PASS" endtime="20170703 19:29:57.400" starttime="20170703 19:29:56.831"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="7">Critical Tests</stat>
+<stat fail="0" pass="7">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Suites" pass="7">Suites</stat>
+<stat fail="0" id="s1-s1" name="Check Headphones placeholder" pass="1">Suites.Check Headphones placeholder</stat>
+<stat fail="0" id="s1-s2" name="Check mobile phones placeholder" pass="1">Suites.Check mobile phones placeholder</stat>
+<stat fail="0" id="s1-s3" name="First Suite" pass="3">Suites.First Suite</stat>
+<stat fail="0" id="s1-s4" name="Second Suite" pass="1">Suites.Second Suite</stat>
+<stat fail="0" id="s1-s5" name="Third Suite" pass="1">Suites.Third Suite</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20170703 19:29:56.759" level="ERROR">Error in file 'C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\Check_Headphones_placeholder.robot': Non-existing setting ''.</msg>
+<msg timestamp="20170703 19:29:56.769" level="ERROR">Error in file 'C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\Check_mobile_phones_placeholder.robot': Non-existing setting ''.</msg>
+<msg timestamp="20170703 19:29:56.781" level="ERROR">Error in file 'C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\First_Suite.robot': Non-existing setting ''.</msg>
+<msg timestamp="20170703 19:29:56.785" level="ERROR">Error in file 'C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\Second_Suite.robot': Non-existing setting ''.</msg>
+<msg timestamp="20170703 19:29:56.789" level="ERROR">Error in file 'C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\Third_Suite.robot': Non-existing setting ''.</msg>
+<msg timestamp="20170703 19:29:56.899" level="ERROR">Error in file 'C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\resource.txt': Non-existing setting ''.</msg>
+<msg timestamp="20170703 19:29:56.904" level="ERROR">Error in file 'C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\resource.txt': Setting variable '' failed: Invalid variable name ''.</msg>
+<msg timestamp="20170703 19:29:57.273" level="ERROR">Error in file 'C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\resource.txt': Setting variable '' failed: Invalid variable name ''.</msg>
+<msg timestamp="20170703 19:29:57.309" level="ERROR">Error in file 'C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\resource.txt': Setting variable '' failed: Invalid variable name ''.</msg>
+<msg timestamp="20170703 19:29:57.341" level="ERROR">Error in file 'C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\resource.txt': Setting variable '' failed: Invalid variable name ''.</msg>
+<msg timestamp="20170703 19:29:57.373" level="ERROR">Error in file 'C:\Users\y.ustinovich\YandexDisk\PROGRAMMING\test_examples\simple_robot test\resource.txt': Setting variable '' failed: Invalid variable name ''.</msg>
+</errors>
+</robot>
